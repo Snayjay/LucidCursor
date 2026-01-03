@@ -2326,6 +2326,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "lucid-cursor"
+version = "0.1.0"
+dependencies = [
+ "base64 0.22.1",
+ "image",
+ "rdev",
+ "serde",
+ "serde_json",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-opener",
+ "xcap",
+]
+
+[[package]]
 name = "mac"
 version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4297,21 +4312,6 @@ dependencies = [
  "webview2-com",
  "window-vibrancy",
  "windows 0.61.3",
-]
-
-[[package]]
-name = "tauri-applucid-cursor"
-version = "0.1.0"
-dependencies = [
- "base64 0.22.1",
- "image",
- "rdev",
- "serde",
- "serde_json",
- "tauri",
- "tauri-build",
- "tauri-plugin-opener",
- "xcap",
 ]
 
 [[package]]

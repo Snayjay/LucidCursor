@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "tauri-applucid-cursor",
+  "productName": "LucidCursor",
   "version": "0.1.0",
-  "identifier": "com.jeff.tauri-applucid-cursor",
+  "identifier": "com.jeff.lucid-cursor",
   "build": {
     "frontendDist": "../src"
   },
